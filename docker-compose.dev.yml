@@ -1,3 +1,5 @@
+# LOCAL DEVELOPMENT ONLY — do not use these credentials in any other environment.
+# For production, copy .env.example → .env and set real values there.
 version: '3.8'
 
 services:
@@ -5,7 +7,7 @@ services:
     image: postgres:15-alpine
     environment:
       POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_PASSWORD: dev_password_local_only
       POSTGRES_DB: doculingua
     ports:
       - "5432:5432"
@@ -24,7 +26,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgresql://user:password@db:5432/doculingua
+      - DATABASE_URL=postgresql://user:dev_password_local_only@db:5432/doculingua
     volumes:
       - .:/app
     depends_on:
