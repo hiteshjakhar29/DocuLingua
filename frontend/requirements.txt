@@ -1,0 +1,8 @@
+# Frontend App Configuration
+streamlit==1.28.2            # Rapid dashboard layout renderer running interactive Python hooks explicitly
+requests==2.31.0             # Native HTTP protocol mapping securely isolating decoupled pipeline bindings
+
+# Data Visualization & Modeling
+pandas==2.1.3                # Compiles extracted JSON endpoint outputs into formatted structural DataFrames gracefully
+plotly==5.18.0               # Specialized interactive graphic visualization engines explicitly rendering dynamic graphs natively 
+Pillow==10.1.0               # Renders natively decoded Image array streams onto explicit visual `st.image` columns

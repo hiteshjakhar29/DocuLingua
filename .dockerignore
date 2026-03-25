@@ -1,0 +1,50 @@
+# ==============================================================================
+# DocuLingua — .dockerignore
+# Keep the build context small; mounts provide runtime data at container start.
+# ==============================================================================
+
+# ── Version control ───────────────────────────────────────────────────────────
+.git
+.gitignore
+
+# ── Secrets (injected via env_file at runtime, never baked into the image) ────
+.env
+.env.local
+
+# ── Python bytecode ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Runtime volumes (mounted by docker-compose, not baked into the image) ─────
+uploads/
+results/
+logs/
+
+# ── Synthetic data (mounted as a volume) ─────────────────────────────────────
+data/synthetic_docs/
+
+# ── HuggingFace cache (separate named volume) ────────────────────────────────
+.cache/
+
+# ── Dev / CI artefacts ────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+*.egg-info/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+._*
+
+# ── IDEs ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/

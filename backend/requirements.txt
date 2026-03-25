@@ -1,0 +1,35 @@
+# API & Server Configuration
+fastapi==0.104.1             # High-performance ASGI framework orchestrating endpoints
+uvicorn==0.23.2              # Lightning-fast ASGI web server implementation
+python-multipart==0.0.6      # Parses deeply nested generic file payloads natively
+pydantic==2.5.2              # Enforces strict REST schema validation bindings
+
+# Database & Schema Mapping
+SQLAlchemy==2.0.23           # Sophisticated Object Relational Mapper for PostgreSQL objects
+psycopg2-binary==2.9.9       # Isolated C-binding adapter scaling robust PostgreSQL queries natively
+
+# OCR Image Rasterization & Native Preprocessing Matrix
+pytesseract==0.3.10          # Strict Python bindings evaluating native Tesseract system binaries
+easyocr==1.7.1               # State-of-the-Art multi-lingual CRNN Optical Text recognition architecture
+opencv-python-headless==4.8.1.78  # Optimized headless computer vision bindings bypassing implicit GUI requirements
+Pillow==10.1.0               # Natively parses and transforms uploaded PIL image streams gracefully
+PyMuPDF==1.23.6              # Explicit `fitz` implementation unpacking and rendering multi-page PDF frames
+
+# Advanced NLP Transformers & ML Entity Recognition
+transformers==4.35.2         # Hugging Face deployment pipeline scaling Text-Classification sequences explicitly
+torch==2.2.2                 # PyTorch underlying tensor calculation arrays powering underlying Transformers
+spacy==3.7.2                 # Native entity recognition evaluation module formatting explicit extraction trees
+protobuf>=3.20.0             # Required by BERT tokenizer for serialization
+sentencepiece>=0.1.99        # Required by BERT tokenizer for subword tokenization
+
+# Data Synthetic Synthesizers & Statistical Tools
+pandas==2.1.3                # Evaluates dense multi-dimensional matrix metrics seamlessly
+numpy==1.26.2                # Provides rapid array calculation constraints for scoring routines
+langdetect==1.0.9            # Extracts explicitly defined language signatures dynamically
+reportlab==4.0.7             # Core rendering engine responsible for synthesizing strict PDF parameters
+Faker==20.1.0                # Synthesizes random robust metadata attributes spanning distinct schemas
+
+# Analytics & Plotting Engines
+matplotlib==3.8.2            # Granular visualization matrix formatting complex benchmarking subsets
+seaborn==0.13.0              # Formats beautiful statistical comparisons isolating variance data
+scipy==1.11.4                # Scales multi-dimensional statistical inference evaluating rigid T-Test bindings

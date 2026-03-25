@@ -1,0 +1,100 @@
+--- Example 1 ---
+Text Snippet: >2-0]& 0 द3ँश])९आक९ ट$झध९ृ ऐ० ठै फ़ढ़६ गटुबऐ, 0ी ७त टटहफ़  02ृ: 2023-04-14...
+Predicted: [('2023-04-14', 'DATE')]
+Actual: [('2023-04-14', 'DATE')]
+
+--- Example 2 ---
+Text Snippet: Professional License This license is granted to Saturnino Baena to practice as a certified Platero V...
+Predicted: [('Saturnino Baena', 'PERSON'), ('Platero', 'DEGREE'), ('2030-10-16', 'DATE')]
+Actual: [('Saturnino Baena', 'PERSON'), ('Platero', 'DEGREE'), ('2030-10-16', 'DATE')]
+
+--- Example 3 ---
+Text Snippet: Diploma 0f Excellence Presented to Eliseo Beltrán Prieto by the faculty of Trinidad Moliner Carlos S...
+Predicted: [('Eliseo Beltrán Prieto', 'PERSON'), ('Trinidad Moliner Carlos S.Coop: Academy', 'INSTITUTION'), ('2021-03-02', 'DATE')]
+Actual: [('Eliseo Beltrán Prieto', 'PERSON'), ('2021-03-02', 'DATE')]
+
+--- Example 4 ---
+Text Snippet: Diploma 0f Excellence Presented to Chantal Auger by the faculty of Normand Nguyen S.A. Academy Date:...
+Predicted: [('Chantal Auger', 'PERSON'), ('Normand Nguyen S.A. Academy', 'INSTITUTION'), ('2024-03-03', 'DATE')]
+Actual: [('Chantal Auger', 'PERSON'), ('Normand Nguyen S.A. Academy', 'INSTITUTION'), ('2024-03-03', 'DATE')]
+
+--- Example 5 ---
+Text Snippet: Diploma of Excellence Presented to Alain Courtois by the faculty of Chrétien S.A. Academy Date: 2020...
+Predicted: [('Alain Courtois', 'PERSON'), ('Chrétien S.A. Academy', 'INSTITUTION'), ('2020-09-13', 'DATE')]
+Actual: [('Alain Courtois', 'PERSON'), ('Chrétien S.A. Academy', 'INSTITUTION'), ('2020-09-13', 'DATE')]
+
+--- Example 6 ---
+Text Snippet: 2-0@ 0 द3ँ])९आक२ ट$झध९ृ ऐ० ठ५ ्ँझ गट"बऐ, ी ~१ई ` टतहफ़ु 22स९: 2021-10-26...
+Predicted: [('2021-10-26', 'DATE')]
+Actual: [('2021-10-26', 'DATE')]
+
+--- Example 7 ---
+Text Snippet: Diploma of Excellence Presented to Émilie Valette by the faculty of Chevalier et Fils Academy Date: ...
+Predicted: [('Émilie Valette', 'PERSON'), ('Chevalier et Fils Academy', 'INSTITUTION'), ('2020-03-16', 'DATE')]
+Actual: [('Émilie Valette', 'PERSON'), ('Chevalier et Fils Academy', 'INSTITUTION'), ('2020-03-16', 'DATE')]
+
+--- Example 8 ---
+Text Snippet: फ़-]ळ 0 द3ँश]]९आक९ ९बझऊध९4 ऐ० 6 गटु]ऐ, 0ा %ऊई ँ८ 021ृ: 2026-02-27...
+Predicted: [('2026-02-27', 'DATE')]
+Actual: [('2026-02-27', 'DATE')]
+
+--- Example 9 ---
+Text Snippet: Professional License This license is granted to Anaïs-Monique Grenier to practice as a certified ani...
+Predicted: [('Anaïs-Monique Grenier', 'PERSON'), ('animateur nature nature', 'DEGREE'), ('2031-01-23', 'DATE')]
+Actual: [('Anaïs-Monique Grenier', 'PERSON'), ('animateur nature nature', 'DEGREE'), ('2031-01-23', 'DATE')]
+
+--- Example 10 ---
+Text Snippet: घ९डड0| _ट९^ड९ 7त1ड ट९ड़ब९ 1ड 9ा^धहत ऐ० ऐ0 फ़आटाट= ३$ 2 टशख़स;९ृ ज़टशश", डध९0^ ौँौत ण७ध11: 2029-07-28...
+Predicted: [('2029-07-28', 'DATE')]
+Actual: [('2029-07-28', 'DATE')]
+
+--- Example 11 ---
+Text Snippet: Professional License This license is granted to Michèle-Aurélie Regnier to practice as a certified c...
+Predicted: [('Michèle-Aurélie Regnier', 'PERSON'), ('chef de projet informatique', 'DEGREE'), ('2027-06-16', 'DATE')]
+Actual: [('Michèle-Aurélie Regnier', 'PERSON'), ('chef de projet informatique', 'DEGREE'), ('2027-06-16', 'DATE')]
+
+--- Example 12 ---
+Text Snippet: Diploma 0f Excellence Presented to Nicole Petitjean by the faculty of Laine Academy Date: 2023-11-02...
+Predicted: [('Nicole Petitjean', 'PERSON'), ('Laine Academy', 'INSTITUTION'), ('2023-11-02', 'DATE')]
+Actual: [('Nicole Petitjean', 'PERSON'), ('Laine Academy', 'INSTITUTION'), ('2023-11-02', 'DATE')]
+
+--- Example 13 ---
+Text Snippet: Diploma 0f Excellence Presented to Paul Olivier by the faculty of Benoit Academy Date: 2020-08-04...
+Predicted: [('Paul Olivier', 'PERSON'), ('2020-08-04', 'DATE')]
+Actual: [('Paul Olivier', 'PERSON'), ('Benoit Academy', 'INSTITUTION'), ('2020-08-04', 'DATE')]
+
+--- Example 14 ---
+Text Snippet: Diploma of Excellence Presented to Angela Gregory by the faculty of Williams LLC Academy Date: 2025-...
+Predicted: [('Angela Gregory', 'PERSON'), ('Williams LLC Academy', 'INSTITUTION'), ('2025-06-11', 'DATE')]
+Actual: [('Angela Gregory', 'PERSON'), ('Williams LLC Academy', 'INSTITUTION'), ('2025-06-11', 'DATE')]
+
+--- Example 15 ---
+Text Snippet: Professional-License This license is granted to Lucas Blot-Seguin to practice as a certified éclaira...
+Predicted: [('Lucas Blot-Seguin', 'PERSON'), ('éclairagiste', 'DEGREE'), ('2028-06-10', 'DATE')]
+Actual: [('Lucas Blot-Seguin', 'PERSON'), ('éclairagiste', 'DEGREE'), ('2028-06-10', 'DATE')]
+
+--- Example 16 ---
+Text Snippet: >2-0]@ 0 ऐ3क]]९]कए ट$झऊऐ९4 ऐ० ठ५ ्ौझ गटु]ऐ, ी __झ टटहफ़ु 021ृ: 2024-01-16...
+Predicted: [('2024-01-16', 'DATE')]
+Actual: [('2024-01-16', 'DATE')]
+
+--- Example 17 ---
+Text Snippet: Diploma 0f Excellence Presented to camille Perez by the faculty of Bruneau Academy Date: 2024-05-11...
+Predicted: [('camille Perez', 'PERSON'), ('Bruneau Academy', 'INSTITUTION'), ('2024-05-11', 'DATE')]
+Actual: [('Bruneau Academy', 'INSTITUTION'), ('2024-05-11', 'DATE')]
+
+--- Example 18 ---
+Text Snippet: Professional License This license is granted to Isabel Velasco-Roselló to practice as a certified Té...
+Predicted: [('Isabel Velasco-Roselló', 'PERSON'), ('Técnico en ciencias físicas y químicas', 'DEGREE'), ('2027-04-08', 'DATE')]
+Actual: [('Isabel Velasco-Roselló', 'PERSON'), ('Técnico en ciencias físicas y químicas', 'DEGREE'), ('2027-04-08', 'DATE')]
+
+--- Example 19 ---
+Text Snippet: Professional License This license is granted to Rosendo Corominas-Cuadrado to practice as a certifie...
+Predicted: [('Rosendo Corominas-Cuadrado', 'PERSON'), ('Lavador de ventanas', 'DEGREE'), ('2029-06-17', 'DATE')]
+Actual: [('Rosendo Corominas-Cuadrado', 'PERSON'), ('Lavador de ventanas', 'DEGREE'), ('2029-06-17', 'DATE')]
+
+--- Example 20 ---
+Text Snippet: Professional License This license is granted to Hélène Denis to practice as a certified ingénieur d'...
+Predicted: [('Hélène Denis', 'PERSON'), ("ingénieur d'application", 'DEGREE'), ('2030-01-12', 'DATE')]
+Actual: [('Hélène Denis', 'PERSON'), ("ingénieur d'application", 'DEGREE'), ('2030-01-12', 'DATE')]
+

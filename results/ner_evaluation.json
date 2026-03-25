@@ -1,0 +1,103 @@
+{
+    "overall_f1_score": 0.9621621621621622,
+    "spacy_detailed_scores": {
+        "token_acc": 1.0,
+        "token_p": 1.0,
+        "token_r": 1.0,
+        "token_f": 1.0,
+        "sents_p": null,
+        "sents_r": null,
+        "sents_f": null,
+        "tag_acc": null,
+        "pos_acc": null,
+        "morph_acc": null,
+        "morph_micro_p": null,
+        "morph_micro_r": null,
+        "morph_micro_f": null,
+        "morph_per_feat": null,
+        "dep_uas": null,
+        "dep_las": null,
+        "dep_las_per_type": null,
+        "ents_p": 0.9468085106382979,
+        "ents_r": 0.978021978021978,
+        "ents_f": 0.9621621621621622,
+        "ents_per_type": {
+            "DATE": {
+                "p": 1.0,
+                "r": 1.0,
+                "f": 1.0
+            },
+            "PERSON": {
+                "p": 0.9333333333333333,
+                "r": 1.0,
+                "f": 0.9655172413793104
+            },
+            "DEGREE": {
+                "p": 1.0,
+                "r": 1.0,
+                "f": 1.0
+            },
+            "INSTITUTION": {
+                "p": 0.7272727272727273,
+                "r": 0.8,
+                "f": 0.761904761904762
+            }
+        },
+        "cats_score": 0.0,
+        "cats_score_desc": "macro F",
+        "cats_micro_p": 0.0,
+        "cats_micro_r": 0.0,
+        "cats_micro_f": 0.0,
+        "cats_macro_p": 0.0,
+        "cats_macro_r": 0.0,
+        "cats_macro_f": 0.0,
+        "cats_macro_auc": 0.0,
+        "cats_f_per_type": {},
+        "cats_auc_per_type": {}
+    },
+    "sklearn_classification_report": {
+        "DATE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 190.0
+        },
+        "DEGREE": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 46.0
+        },
+        "INSTITUTION": {
+            "precision": 0.625,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.7142857142857143,
+            "support": 30.0
+        },
+        "O": {
+            "precision": 0.8648648648648649,
+            "recall": 0.6037735849056604,
+            "f1-score": 0.7111111111111111,
+            "support": 53.0
+        },
+        "PERSON": {
+            "precision": 0.9318181818181818,
+            "recall": 1.0,
+            "f1-score": 0.9647058823529412,
+            "support": 82.0
+        },
+        "accuracy": 0.9351620947630923,
+        "macro avg": {
+            "precision": 0.8843366093366093,
+            "recall": 0.8874213836477989,
+            "f1-score": 0.8780205415499533,
+            "support": 401.0
+        },
+        "weighted avg": {
+            "precision": 0.9401419669499469,
+            "recall": 0.9351620947630923,
+            "f1-score": 0.9332252934423978,
+            "support": 401.0
+        }
+    }
+}
